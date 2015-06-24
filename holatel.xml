@@ -1,0 +1,63 @@
+<form steps="5" title="Recomienda y vuela con Holatel">
+	<steps>
+		<step number="1">
+			<h1></h1>
+			<h2>  </h2>
+		</step>
+		<step number="2">
+			<h1>Completa los datos a continuación, PARA HACERTE LLEGAR TODA LA INFORMACIÓN DE CÓMO GANAR TU PASAJE!!!</h1>
+			<h2>  </h2>
+			<input name="email" type="text" label="Email" dbtable="answers" dbfield="email" required="yes" mustcontain="@.">
+			</input>
+			<input name="first_name" type="text" label="Nombre" dbtable="answers" dbfield="first_name" required="yes" minlength="2">
+			</input>	
+			<input name="last_name" type="text" label="Apellido" dbtable="answers" dbfield="last_name" required="yes" minlength="2">
+			</input>	
+			<input name="pais" type="text" label="País de Residencia" dbtable="answers" dbfield="country" required="yes">
+			</input>	
+			<input name="phone" type="text" label="Teléfono (cód pais)+(cód ciudad)+(número local o celular)" dbtable="answers" dbfield="phone" required="yes" minlength="8">
+			</input>	
+			<input name="cel" type="check" label="" dbtable="answers" dbfield="q1" required="no">
+			<option name="Es celular?" value="1" ></option>
+			</input>				
+		</step>
+		<step number="3">
+			<h1> Comparte en tus Redes Sociales, y duplica tus chances de Ganar el Pasaje Ida y Vuelta!!!</h1>
+			<h2>  </h2>
+			<input name="facebooklike" type="fblike" url="http://globalstats.com.ar/mmdb/holatel/" dbtable="questions" dbfield="fblike" required="no">
+			</input>
+		</step>
+		<step number="4">
+			<h1> Puedes sumar más chances para ganar el viaje!</h1>
+			<h2>, completa aquí con los datos de aquellas personas a las que pueda interesarle estar comunicado con sus familiares y amigos en su país de origen. Y Ganar un Pasaje!!!</h2>
+			<input name="recommend1" type="text" label="Email #1" dbtable="answers" dbfield="recommend1" required="no" mustcontain="@.">
+			</input>
+			<input name="recommend1_name" type="text" label="Nombre y Apellido #1" dbtable="answers" dbfield="recommend1_name" required="no" >
+			</input>
+			<input name="recommend1_country" type="text" label="País de residencia #1" dbtable="answers" dbfield="recommend1_country" required="no" >
+			</input>
+			<input name="recommend2" type="text" label="Email #2" dbtable="answers" dbfield="recommend2" required="no" mustcontain="@.">
+			</input>                                          
+			<input name="recommend2_name" type="text" label="Nombre y Apellido #2" dbtable="answers" dbfield="recommend2_name" required="no" >
+			</input>
+			<input name="recommend2_country" type="text" label="País de residencia #2" dbtable="answers" dbfield="recommend2_country" required="no" >
+			</input>
+			<input name="recommend3" type="text" label="Email #3" dbtable="answers" dbfield="recommend3" required="no" mustcontain="@.">
+			</input>                                          
+			<input name="recommend3_name" type="text" label="Nombre y Apellido #3" dbtable="answers" dbfield="recommend3_name" required="no" >
+			</input>
+			<input name="recommend3_country" type="text" label="País de residencia #3" dbtable="answers" dbfield="recommend3_country" required="no" >
+			</input>			
+			<input name="recommend4" type="text" label="Email #4" dbtable="answers" dbfield="recommend4" required="no" mustcontain="@.">
+			</input>
+			<input name="recommend4_name" type="text" label="Nombre y Apellido #4" dbtable="answers" dbfield="recommend4_name" required="no" >
+			</input>
+			<input name="recommend4_country" type="text" label="País de residencia #4" dbtable="answers" dbfield="recommend4_country" required="no" >
+			</input>
+		</step>
+		<step number="5" thankyou="yes">
+			<h1>, felicitaciones!. </h1>
+			<h2>Si eres cliente, ya estás participando y registraremos las chances que hoy sumaste. Si aún no eres Cliente Activo, nos comunicaremos al mail que nos has dejado, para informarte sobre el servicio. Muchas Gracias!!</h2>
+		</step>
+	</steps>
+</form>

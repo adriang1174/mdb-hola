@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'robotolight';
+    src: url('fonts/Roboto-Light-webfont.eot');
+    src: url('fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Light-webfont.svg#robotolight') format('svg'),
+		 url('fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('fonts/Roboto-Light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/Roboto-Regular-webfont.eot');
+    src: url('fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg'),
+         url('fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('fonts/Roboto-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('fonts/Roboto-Medium-webfont.eot');
+    src: url('fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg'),
+		 url('fonts/Roboto-Medium-webfont.woff') format('woff'),
+         url('fonts/Roboto-Medium-webfont.ttf') format('truetype');         
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+	font-family:verdana;
+	background-color:#d9d9d9;
+	font-size:14px;
+	color:#363740;
+	font-family: 'robotoregular';
+}
+*{
+margin:0;
+padding:0;
+}
+.clear{
+clear:both;
+}
+
+a
+{
+
+	color:#000000;
+	text-decoration:none;
+	/*font-weight:bold;*/	
+    font-size: 19px;
+    list-style: none outside none;
+}
+.header{ width:100%; height:100px; background-color:#CCCCCC;}
+.footer{width:100%; height:100px; background-color:#CCCCCC;}
+.text_bx{ width:100%; box-sizing: border-box; height:35px; padding:5px 3px; border-radius:5px; border: 1px solid #64cbee;font-family:Arial, Helvetica, sans-serif; color:#000000; background-color:#e6e6e6; }
+.innercontent{font-size:14px; color:#231F20; width:35%; margin-top:10px; margin-bottom:10px; margin-right:5%; text-align:right; display:inline-block; vertical-align:middle;}
+.innercontent1{font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#009ddb; float:left; width:100%; margin-top:20px;}
+.box{ width:55%; margin-top:10px; margin-bottom:10px; display:inline-block; vertical-align:middle;}
+.box10{ width:60%; margin-top:20px; margin-left:250px}
+.fullinnercontent{ width:60%; margin:0 auto;}
+.continue_butt{ margin-bottom:20px; text-align: center;}
+.text_bx2{ width:40%; height:35px; padding:5px 3px; border-radius:5px; border: 1px solid #64cbee;font-family:Arial, Helvetica, sans-serif; color:#000000; background-color:#e6e6e6;}
+.box2{ width:15%; float:left; margin-top:20px;}
+.text_bx3{ width:90%; height:35px; padding:5px 3px; border-radius:5px; border: 1px solid #64cbee;font-family:Arial, Helvetica, sans-serif; color:#000000; background-color:#e6e6e6;}
+.box3{ width:40%; float:left; margin-top:20px;}
+.social_like{float:left; text-align:right; width:40%; margin-top:100px; margin-bottom:280px;}
+.social_like1{ float:left; padding-left:20px; margin-top:100px; margin-bottom:280px;}
+.step4_social{ width:400px; margin:0 auto;}
+.facebook_box{margin-left:120px; margin-right:40px; margin-top:30px; width:200px;float:left;padding-left: 78px;padding-right: 22px}
+.twitter_box{margin-left:40px; margin-right:40px; margin-top:30px; margin:0 auto; width:200px;float:left;padding-left: 78px;padding-right: 22px}
+.continue_butt_social{margin-bottom:20px; width:16%; margin: 0 auto;}
+#innercontholder2{ width:700px; margin:0 auto;
+	background:#FFF;
+	font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+}
+#contenido {
+	padding:50px;
+}
+
+h2 {
+	color:#009CE8;
+	font-size:1.6em;
+	text-transform:uppercase;
+	font-weight:normal;
+	margin-bottom:10px;
+}
+
+h3 {
+	font-size:1.2em;
+	font-weight:normal;
+	margin-bottom:10px;
+}
+.login_bt{
+	padding:15px 40px;
+	text-transform:uppercase;
+	background-color: #009CE8;
+	color:#fff;
+	margin-top:60px;
+	border:none;
+	/*font-size:1.4em;*/
+	font-size:17px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	cursor:pointer;
+	-webkit-transition: all 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: all 0.3s;
+}
+.login_bt:hover {
+	background-color:#231F20;
+	color:#009CE8;
+}
+
+.division {
+	display:block;
+	border-bottom:#cccccc solid 1px;
+	padding-top:10px; margin-bottom:10px;
+}

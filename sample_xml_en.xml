@@ -1,0 +1,117 @@
+<form steps="5">
+	<steps>
+		<step number="1">
+				
+			<input name="q1" type="select" label="¿Cuándo te graduaste?" dbtable="answers" dbfield="q1" required="yes">
+							<option name="1980" value="1980"></option>
+				<option name="1981" value="1981"></option>
+				<option name="1982" value="1982"></option>
+				<option name="1983" value="1983"></option>
+				<option name="1984" value="1984"></option>
+				<option name="1985" value="1985"></option>
+				<option name="1986" value="1986"></option>
+				<option name="1987" value="1987"></option>
+				<option name="1988" value="1988"></option>
+				<option name="1989" value="1989"></option>
+				<option name="1990" value="1980"></option>
+				<option name="1991" value="1991"></option>
+				<option name="1992" value="1992"></option>
+				<option name="1993" value="1993"></option>
+				<option name="1994" value="1994"></option>
+				<option name="1995" value="1995"></option>
+				<option name="1996" value="1996"></option>
+				<option name="1997" value="1997"></option>
+				<option name="1998" value="1998"></option>
+				<option name="1999" value="1999"></option>
+				<option name="2000" value="2000"></option>
+				<option name="2001" value="2001"></option>
+				<option name="2002" value="2002"></option>
+				<option name="2003" value="2003"></option>
+				<option name="2004" value="2004"></option>
+				<option name="2005" value="2005"></option>
+				<option name="2006" value="2006"></option>
+				<option name="2007" value="2007"></option>
+				<option name="2008" value="2008"></option>
+				<option name="2009" value="2009"></option>
+				<option name="2010" value="2010"></option>
+				<option name="2011" value="2011"></option>
+				<option name="2012" value="2012"></option>
+				<option name="2013" value="2013"></option>
+				<option name="2014" value="2014"></option>
+
+			</input>
+			<input name="q2" type="select" label="¿En qué universidad?" dbtable="answers" dbfield="q2" required="yes">
+				<option name="UBA" value="0"></option>
+				<option name="Otra" value="1"></option>
+			</input>
+			<input name="q3" type="select" label="¿Sos residente actualmente? " dbtable="answers" dbfield="q3" required="yes">
+				<option name="Si" value="0"></option>
+				<option name="No" value="1"></option>
+			</input>
+			<input name="q4" type="text" label="¿De qué año?" dbtable="answers" dbfield="q4" required="yes">
+			</input>
+
+
+			<input name="q6" type="select" label="Especialidad" dbtable="answers" dbfield="q6" required="yes">
+								<option name="Alergia e Inmunologia" value="Alergia e Inmunologia"></option><option name="Asistente de Quirofano" value="Asistente de Quirofano"></option><option name="Biólogo" value="Biólogo"></option><option name="Bioquimica" value="Bioquimica"></option><option name="Cardiologia" value="Cardiologia"></option><option name="Cirugia" value="Cirugia"></option><option name="Cirugia pediatrica" value="Cirugia pediatrica"></option><option name="Cirugia Plastica" value="Cirugia Plastica"></option><option name="Clinica Medica" value="Clinica Medica"></option><option name="Clínica Pediatrica" value="Clínica Pediatrica"></option><option name="CLM-Cardiologia" value="CLM-Cardiologia"></option><option name="CLM-Diabetes" value="CLM-Diabetes"></option><option name="CLM-Terapista" value="CLM-Terapista"></option><option name="Dermatologia" value="Dermatologia"></option><option name="Diabetes" value="Diabetes"></option><option name="Diagnostico por imagenes" value="Diagnostico por imagenes"></option><option name="Educación Física" value="Educación Física"></option><option name="Endocrinologia" value="Endocrinologia"></option><option name="Enfermeria" value="Enfermeria"></option><option name="Estudiante" value="Estudiante"></option><option name="Farmacia" value="Farmacia"></option><option name="Fisiatría" value="Fisiatría"></option><option name="Gastroenterologia" value="Gastroenterologia"></option><option name="Generalista" value="Generalista"></option><option name="Geriatria" value="Geriatria"></option><option name="Gerontologia" value="Gerontologia"></option><option name="Gimnasia Terapéutica" value="Gimnasia Terapéutica"></option><option name="Ginecologia" value="Ginecologia"></option><option name="IAR" value="IAR"></option><option name="Infectologia" value="Infectologia"></option><option name="Kinesiologia" value="Kinesiologia"></option><option name="Lic. Bioimagenes" value="Lic. Bioimagenes"></option><option name="Lic. en Obstetricia" value="Lic. en Obstetricia"></option><option name="Lic. Nutrición" value="Lic. Nutrición"></option><option name="Med.General" value="Med.General"></option><option name="Medicina del Deporte" value="Medicina del Deporte"></option><option name="Medicina Familiar" value="Medicina Familiar"></option><option name="Medicina General" value="Medicina General"></option><option name="Medicina Interna" value="Medicina Interna"></option><option name="Medicina Laboral" value="Medicina Laboral"></option><option name="Medicina Legal" value="Medicina Legal"></option><option name="Medico Generalista" value="Medico Generalista"></option><option name="Nefrologia" value="Nefrologia"></option><option name="Neonatologia" value="Neonatologia"></option><option name="Neurocirugia" value="Neurocirugia"></option><option name="Neurologia" value="Neurologia"></option><option name="NO CORRESPONDE" value="NO CORRESPONDE"></option><option name="No Informa" value="No Informa"></option><option name="Nutricion" value="Nutricion"></option><option name="Obstetricia" value="Obstetricia"></option><option name="Oftalmologia" value="Oftalmologia"></option><option name="Oncologia" value="Oncologia"></option><option name="Ortopedia" value="Ortopedia"></option><option name="Ortopedia y Traumatologia" value="Ortopedia y Traumatologia"></option><option name="Otorrinolaringologia" value="Otorrinolaringologia"></option><option name="Patología" value="Patología"></option><option name="Pediatria" value="Pediatria"></option><option name="Psiquiatria" value="Psiquiatria"></option><option name="Radiologa" value="Radiologa"></option><option name="Residente" value="Residente"></option><option name="Reumatologia" value="Reumatologia"></option><option name="Terapia Intensiva" value="Terapia Intensiva"></option><option name="Tocoginecologia" value="Tocoginecologia"></option><option name="Traumatologia" value="Traumatologia"></option>
+			</input>
+			<input name="q5" type="text" label=" ¿En qué horarios estás en el Hospital?" dbtable="answers" dbfield="comment" required="no">
+			</input>
+		</step>
+		<step number="2">
+			<h1> Join to win a golf putter</h1>
+			<h2> Fill the form to participate </h2>
+			<input name="first_name" type="text" label="First Name" dbtable="answers" dbfield="first_name" required="yes" minlength="2">
+			</input>	
+			<input name="last_name" type="text" label="Last Name" dbtable="answers" dbfield="last_name" required="yes" minlength="2">
+			</input>	
+			<input name="email" type="text" label="Email" dbtable="answers" dbfield="email" required="yes" mustcontain="@.">
+			</input>
+			<input name="phone" type="text" label="Phone" dbtable="answers" dbfield="phone" required="yes" minlength="8">
+			</input>				
+			<input name="mobile-number" type="text" label="15" dbtable="answers" dbfield="mobile_numbe" required="yes" minlength="4" maxlength="10">
+			</input>				
+			<input name="city" type="text" label="City" dbtable="answers" dbfield="city" required="no">
+			</input>	
+			<input name="state" type="select" label="State" dbtable="answers" dbfield="state" required="yes">
+				<option name="Buenos Aires" value="BA"></option>
+				<option name="Cordoba" value="CB"></option>
+				<option name="Santa Fe" value="SF"></option>
+			</input>
+			<input name="birthdate" type="date" label="Birthdate" format="dd/mm/yyyy" dbtable="answers" dbfield="birthdate" required="yes">
+			</input>	
+			<input name="captcha" type="captcha" label="What is result of 4 + 5?" required="yes">
+			</input>	
+			<input name="terms" type="check" label="" dbtable="answers" dbfield="accept" required="yes">
+				<option name="I read and accept the terms and conditions" value="1" validation="checked"></option>
+			</input>
+		</step>
+		<step number="3">
+			<h1> Share on Facebook and Twitter</h1>
+			<h2> Your friends can join and you increase your chances of winning </h2>
+			<input name="facebooklike" type="fblike" url="http://www.somesite.com" dbtable="questions" dbfield="fblike" required="no">
+			</input>
+			<input name="twitterfollow" type="twfollow" url="http://www.somesite.com" dbtable="questions" dbfield="twfollow" required="no">
+			</input>
+		</step>
+		<step number="4">
+			<h1>Recommend to friends, increase your chances and get extra discounts</h1>
+			<h2> You get an extra chance for every friend that you invite </h2>
+
+			<input name="recommend1" type="text" label="Email friend #1" dbtable="answers" dbfield="recommend1" required="no" mustcontain="@.">
+			</input>
+			<input name="recommend2" type="text" label="Email friend #2" dbtable="answers" dbfield="recommend2" required="no" mustcontain="@.">
+			</input>
+			<input name="recommend3" type="text" label="Email friend #3" dbtable="answers" dbfield="recommend3" required="no" mustcontain="@.">
+			</input>
+			<input name="recommend4" type="text" label="Email friend #4" dbtable="answers" dbfield="recommend4" required="no" mustcontain="@.">
+			</input>
+
+		</step>
+		<step number="5" thankyou="yes">
+			<h1> Congratulations!!!</h1>
+			<h2> You are already participating. We keep in touch, and notify  you about draw results. Get Lucky!</h2>
+		</step>
+
+	</steps>
+</form>
